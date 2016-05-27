@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">FaceBook</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_homepage">Homepage</string>
+    <string name="title_activity_users">Users</string>
+
+    <string name="title_section1">Users </string>
+    <string name="title_section2">Friend Request</string>
+    <string name="title_section3"></string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_custom_adapter">CustomAdapter</string>
+    <string name="title_activity_friendrequest">friendrequest</string>
+    <string name="title_activity_custom_adapter_req">CustomAdapter_req</string>
+    <string name="title_activity_friendrequests">friendrequests</string>
+
+</resources>
