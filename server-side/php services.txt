@@ -1,0 +1,5 @@
+http://api.baabtra.com/facebook1/index.php/Services_api/login
+
+http://api.baabtra.com/facebook1/index.php/Services_api/registration
+
+http://api.baabtra.com/facebook1/index.php/Services_api/users
