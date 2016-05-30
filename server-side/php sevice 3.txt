@@ -1,0 +1,2 @@
+http://api.baabtra.com/facebook1/index.php/Services_api/friendAccept
+http://api.baabtra.com/facebook1/index.php/Services_api/declineFriend
