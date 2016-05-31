@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.facebook" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name=".Register"
+            android:label="@string/title_activity_register" >
+        </activity>
+        <activity
+            android:name=".Homepage"
+            android:label="@string/title_activity_homepage" >
+        </activity>
+        <activity
+            android:name=".Users"
+            android:label="@string/title_users" >
+        </activity>
+        <activity
+            android:name=".CustomAdapter"
+            android:label="@string/title_activity_custom_adapter" >
+        </activity>
+        <activity
+            android:name=".friendrequest"
+            android:label="@string/title_activity_friendrequest" >
+        </activity>
+        <activity
+            android:name=".CustomAdapter_req"
+            android:label="@string/title_activity_custom_adapter_req" >
+        </activity>
+        <activity
+            android:name=".friendrequests"
+            android:label="@string/title_activity_friendrequests" >
+        </activity>
+        <activity
+            android:name=".Accept"
+            android:label="@string/title_activity_accept" >
+        </activity>
+        <activity
+            android:name=".Decline"
+            android:label="@string/title_activity_decline" >
+        </activity>
+        <activity
+            android:name=".Friends"
+            android:label="@string/title_activity_friends" >
+        </activity>
+        <activity
+            android:name=".Custom_adapter_friend"
+            android:label="@string/title_activity_custom_adapter_friend" >
+        </activity>
+        <activity
+            android:name=".Friend"
+            android:label="@string/title_activity_friend" >
+        </activity>
+    </application>
+
+</manifest>
