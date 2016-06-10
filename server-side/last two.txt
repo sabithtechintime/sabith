@@ -1,0 +1,3 @@
+http://api.baabtra.com/facebook1/index.php/Services_api/blockFriend
+
+http://api.baabtra.com/facebook1/index.php/Services_api/Friends_details
