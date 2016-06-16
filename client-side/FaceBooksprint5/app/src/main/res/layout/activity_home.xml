@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.user.facebook.Home">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:id="@+id/im1"
+        android:src="@drawable/addphot" />
+    <TextView android:text="addphoto" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/t1"/>
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/im2"
+        android:src="@drawable/checkin" />
+    <TextView android:text="checkin" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/t2"/>
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/im3"
+        android:src="@drawable/more" />
+    <TextView android:text="More" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/t3"/>
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="30dp"
+        android:id="@+id/result"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:text="Fahad faiju"
+        android:id="@+id/t4"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/lg"
+        android:id="@+id/im4"/>
+</LinearLayout>
+
